@@ -12,7 +12,7 @@ edition = "2018"
 name = "secp256k1"
 
 [dependencies]
-rand = { git = "https://github.com/mesalock-linux/rand-sgx", tag = "v0.6.5_sgx1.1.1" }
+rand = { git = "https://github.com/mesalock-linux/rand-sgx", tag = "v0.7.3_sgx1.1.2" }
 hmac-drbg = { git = "https://github.com/mesalock-linux/hmac-drbg-rs-sgx", optional = true }
 sha2 = { git = "https://github.com/mesalock-linux/rustcrypto-hashes-sgx", optional = true }
 digest = { git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx" }
@@ -20,7 +20,7 @@ typenum = { version = "1.11", optional = true }
 arrayref = "0.3"
 crunchy = "0.2"
 subtle = { git = "https://github.com/mesalock-linux/subtle-sgx" }
-sgx_tstd = { rev = "v1.1.1", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
+sgx_tstd = { rev = "v1.1.2", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
 
 [dev-dependencies]
 #secp256k1-test = "0.7"
