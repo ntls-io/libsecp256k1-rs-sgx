@@ -12,7 +12,7 @@ edition = "2018"
 name = "secp256k1"
 
 [dependencies]
-rand = { git = "https://github.com/mesalock-linux/rand-sgx", tag = "v0.7.3_sgx1.1.3" }
+rand = { git = "https://github.com/mesalock-linux/rand-sgx" }
 hmac-drbg = { git = "https://github.com/mesalock-linux/hmac-drbg-rs-sgx", optional = true }
 sha2 = { git = "https://github.com/mesalock-linux/rustcrypto-hashes-sgx", optional = true }
 digest = { git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx" }
